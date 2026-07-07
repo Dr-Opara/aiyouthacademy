@@ -17,7 +17,7 @@ export default function ComingSoonView() {
           COMING SOON · JORDAN RANCH / FULSHEAR, TX
         </span>
         <h1 className="mx-auto mt-5 max-w-3xl font-display text-[clamp(34px,6vw,64px)] font-bold leading-[1.05]">
-          The AI4 Universe is landing in{" "}
+          The AI Youth Academy Universe is landing in{" "}
           <span className="bg-gradient-to-r from-cyan via-yellow to-red bg-clip-text text-transparent">
             Jordan Ranch / Fulshear
           </span>

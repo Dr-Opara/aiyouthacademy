@@ -57,7 +57,7 @@ export default function PortalPreview() {
           <span className="h-3 w-3 rounded-full bg-yellow/70" />
           <span className="h-3 w-3 rounded-full bg-cyan/70" />
           <span className="ml-3 text-xs font-bold tracking-wide text-ink-mute">
-            portal.ai4youthacademy.com
+            portal.aiyouthacademy.com
           </span>
         </div>
 

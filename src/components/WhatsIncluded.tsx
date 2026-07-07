@@ -52,7 +52,7 @@ export default function WhatsIncluded() {
           Every track, <span className="text-cyan">same foundation.</span>
         </h2>
         <p className="mt-3.5 max-w-[640px] text-[clamp(15px,1.5vw,18px)] leading-relaxed text-ink-soft">
-          Regardless of level, every AI4 Youth Academy program shares the same
+          Regardless of level, every AI Youth Academy program shares the same
           safety standards, teaching quality, and hands-on structure.
         </p>
       </motion.div>

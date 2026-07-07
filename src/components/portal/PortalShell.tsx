@@ -62,9 +62,9 @@ export default function PortalShell({
 
   const sidebarInner = (
     <>
-      <Link href="/" className="mb-8 flex items-center gap-2.5">
+      <Link href="/" className="mb-8 flex items-center gap-2.5" aria-label="AI Youth Academy home">
         <span className="rounded-[10px] bg-gradient-to-br from-purple to-[#A855F7] px-2.5 py-1.5 font-display text-sm font-bold text-white shadow-[0_0_18px_rgba(123,47,247,0.55)]">
-          AI4
+          AI
         </span>
         <span className="font-display text-sm font-bold tracking-[0.2em] text-white">
           YOUTH ACADEMY

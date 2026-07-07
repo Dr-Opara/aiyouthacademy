@@ -19,11 +19,11 @@ export async function generateMetadata({
   const program = getProgram(slug);
 
   if (!program) {
-    return { title: "Program Not Found | AI 4 Youth Academy" };
+    return { title: "Program Not Found" };
   }
 
   return {
-    title: `${program.name} (${program.ageRange}) | AI 4 Youth Academy`,
+    title: `${program.name} (${program.ageRange})`,
     description: program.description,
   };
 }

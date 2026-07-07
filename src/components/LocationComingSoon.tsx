@@ -30,7 +30,7 @@ export default function LocationComingSoon() {
         </span>
 
         <h2 className="mt-5 font-display text-[clamp(34px,5.4vw,64px)] font-bold leading-[1.05]">
-          The AI4 Universe lands in
+          The AI Youth Academy Universe lands in
           <br />
           <span className="bg-gradient-to-r from-cyan via-yellow to-red bg-clip-text text-transparent">
             Jordan Ranch / Fulshear

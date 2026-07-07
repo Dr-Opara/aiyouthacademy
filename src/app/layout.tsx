@@ -14,11 +14,49 @@ const nunito = Nunito({
   weight: ["400", "600", "700", "800"],
 });
 
+const siteUrl = "https://aiyouthacademy.com";
+const siteTitle = "AI Youth Academy | Learn AI. Create the Future.";
+const siteDescription =
+  "AI Youth Academy teaches students ages 6–18 how to build with Artificial Intelligence through coding, creativity, entrepreneurship, websites, games, apps, and real-world projects.";
+
 export const metadata: Metadata = {
-  title: "AI 4 Youth Academy — Create. Build. Innovate.",
-  description:
-    "AI 4 Youth Academy empowers kids ages 6–18 to create games, apps, and businesses with AI. Coming soon to Jordan Ranch / Fulshear, Texas.",
-  keywords: ["AI education", "youth academy", "coding for kids", "STEM", "AI camp"],
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: siteTitle,
+    template: "%s | AI Youth Academy",
+  },
+  description: siteDescription,
+  keywords: [
+    "AI Education",
+    "Youth AI",
+    "AI for Kids",
+    "AI for Teens",
+    "AI Classes Texas",
+    "AI Camp",
+    "Coding for Kids",
+    "AI Learning",
+    "AI Academy",
+    "Fulshear",
+    "Jordan Ranch",
+    "Katy",
+    "Brookshire",
+  ],
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "AI Youth Academy",
+    title: siteTitle,
+    description: siteDescription,
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+  },
 };
 
 export default function RootLayout({

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import StudentPortalView from "@/components/portal/StudentPortalView";
 
 export const metadata: Metadata = {
-  title: "Student Portal | AI 4 Youth Academy",
+  title: "Student Portal",
   description:
-    "Track your learning path, projects, certificates, and weekly AI challenges at AI 4 Youth Academy.",
+    "Track your learning path, projects, certificates, and weekly AI challenges at AI Youth Academy.",
   robots: { index: false, follow: false },
 };
 
