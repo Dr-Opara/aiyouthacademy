@@ -4,6 +4,8 @@ AI Youth Academy teaches students ages 6–18 how to build with Artificial Intel
 
 Built with [Next.js](https://nextjs.org) (App Router), TypeScript, and Tailwind CSS.
 
+Repository: [github.com/Dr-Opara/aiyouthacademy](https://github.com/Dr-Opara/aiyouthacademy)
+
 ## Getting Started
 
 Install dependencies and start the development server:
@@ -32,4 +34,4 @@ npm run lint     # lint the project
 
 ## Deployment
 
-The site deploys to [Vercel](https://vercel.com). Production: https://aiyouthacademymemo.vercel.app (custom domain `aiyouthacademy.com` pending DNS setup).
+The site deploys to [Vercel](https://vercel.com). Production: [aiyouthacademy.vercel.app](https://aiyouthacademy.vercel.app) (custom domain `aiyouthacademy.com` / `www.aiyouthacademy.com` pending DNS setup).
